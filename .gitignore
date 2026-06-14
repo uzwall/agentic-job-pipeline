@@ -1,0 +1,32 @@
+# API Keys & Secrets
+.env
+*.env
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Uploaded CVs / personal data
+*.pdf
+cv_*.json
+parsed_cv.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.venv/
